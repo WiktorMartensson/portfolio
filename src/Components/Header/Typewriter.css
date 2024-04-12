@@ -1,0 +1,23 @@
+.typewriter {
+  overflow: hidden; /* Ensures text appears to be typed */
+  border-right: 0.08em solid orange; /* Typing cursor */
+  white-space: nowrap; /* Prevents text from wrapping */
+  margin: 0; /* Reset margin */
+}
+
+.typewriter.typing::after {
+  content: "|"; /* Add cursor while typing */
+  animation: blink 0.8s step-end infinite; /* Blink animation */
+}
+
+/* Optional: Blinking cursor animation */
+@keyframes blink {
+  50% {
+    border-color: transparent; /* Hide cursor */
+  }
+}
+
+.typewriter::after {
+  content: "|"; /* Cursor character */
+  animation: blink 0.8s step-end infinite; /* Blink animation */
+}

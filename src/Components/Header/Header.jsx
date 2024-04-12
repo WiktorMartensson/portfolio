@@ -6,6 +6,7 @@ import Lottie from 'react-lottie';
 
 import animationData from '../../lotties/Animation.json'
 import Lyftkran from "../../lotties/Lyftkran";
+import Typewriter from "./Typewriter";
 
 import CTA from "./CTA";
 
@@ -25,12 +26,12 @@ const Header = () => {
        
         <div className="header__titles">
         <h1>Wiktor Mårtensson</h1>
-        <h5 className="text-light">Fullstack Developer</h5>
+        <Typewriter texts={['Frontend Developer', 'Backend Developer', 'UI/UX Design']} />
         </div>
         <CTA />
         <HeaderSocials />
         <div className="header__lottie">
-          <p>Welcome to my portfolio! As a junior full-stack developer proficient in MERN stack, I showcase my passion and proficiency through projects highlighting my skills in web development.</p>
+          <p>Welcome to my portfolio! As a junior full-stack developer proficient in the MERN stack, I showcase my passion and proficiency through projects highlighting my skills in web development.</p>
           <Lottie options={defaultOptions} height={400} width={400}/>
 
         </div>
