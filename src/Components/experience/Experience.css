@@ -8,6 +8,13 @@
     margin-left: 13rem;
 }
 
+
+.experience__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .experience__container > div {
     background: var(--color-bg-variant);
     padding: 2.4rem 5rem;
@@ -80,6 +87,12 @@
     .experience__container > div {
         width: 100%;
         padding: 2rem 1rem;
+    }
+
+    .lyftkran {
+        display: flex;
+        justify-content: center;
+        margin-left: 0rem;
     }
   }
   

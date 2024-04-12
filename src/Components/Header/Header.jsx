@@ -28,12 +28,9 @@ const Header = () => {
         <h5 className="text-light">Fullstack Developer</h5>
         </div>
         <CTA />
-
         <HeaderSocials />
         <div className="header__lottie">
-        <div className="header__text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias fugiat explicabo obcaecati mollitia atque animi magnam porro, placeat reprehenderit unde, sit non expedita rerum corporis voluptatum asperiores autem ipsum maiores.'</p>
-        </div>
+          <p>Welcome to my portfolio! As a junior full-stack developer proficient in MERN stack, I showcase my passion and proficiency through projects highlighting my skills in web development.</p>
           <Lottie options={defaultOptions} height={400} width={400}/>
 
         </div>
